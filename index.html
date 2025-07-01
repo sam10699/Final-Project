@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Responsive Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://media.gettyimages.com/id/1166811341/photo/everything-weve-been-working-on-will-come-to-light-soon.jpg?s=612x612&w=gi&k=20&c=P8CsICHEW9cVDrVvssJxeyDCTG40QqvJBA6B0qAKBik=');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.9;
+            color: white;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0d6efd;
+        }
+        
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+        
+        .social-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: white;
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container ">
+            <a class="navbar-brand" href="/index.html" style="font-size: 30px; font-weight: bold;">
+                TechNova
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Contact.html">Contact</a>
+                    </li>
+                </ul>
+                <button class="btn btn-secondary ms-3">Get Started</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Modern Solutions for Your Business</h1>
+                    <p class="lead mb-4">We provide cutting-edge technology to help your business grow and thrive in the digital age.</p>
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <button type="button" class="btn btn-secondary btn-lg px-4 me-sm-3">Primary Action</button>
+                        <button type="button" class="btn btn-outline-light btn-lg px-4">Secondary Action</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Key Features</h2>
+                <p class="lead">Designed to help you grow your business</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/91435fec-bb31-4f99-b42a-7cbf770a721d.png" alt="Feature icon representing responsive design" width="60">
+                            </div>
+                            <h3>Responsive Design</h3>
+                            <p>Our products work seamlessly on all devices from desktop to mobile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d161b0a4-730a-4834-b3e3-ac38d78d7cee.png" alt="Feature icon representing fast performance" width="60">
+                            </div>
+                            <h3>Fast Performance</h3>
+                            <p>Optimized for speed to give your users the best possible experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/7d327448-dc31-434b-b340-9b9344810903.png" alt="Feature icon representing easy customization" width="60">
+                            </div>
+                            <h3>Easy Customization</h3>
+                            <p>Simple and intuitive tools to make it your own without any hassle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Our Products</h2>
+                <p class="lead">Carefully crafted solutions for your needs</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/06841494-ba42-490b-86a2-3d722a7d30f9.png" class="card-img-top" alt="Product 1 with a sleek design">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Plan</h5>
+                            <p class="card-text">Perfect for small businesses and startups.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-secondary w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b8e23412-2351-4e52-b1b4-e1b1f2c37627.png" class="card-img-top" alt="Product 2 with advanced features">
+                        <div class="card-body">
+                            <h5 class="card-title">Pro Plan</h5>
+                            <p class="card-text">Advanced features for growing businesses.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-secondary w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/df14ad90-b168-44a3-82bd-fe09a0d005f5.png" class="card-img-top" alt="Product 3 with premium options">
+                        <div class="card-body">
+                            <h5 class="card-title">Enterprise Plan</h5>
+                            <p class="card-text">Complete package for large organizations.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-secondary w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/324a9104-8eb5-4329-a65e-ab540e071a31.png" class="card-img-top" class="card-img-top" alt="Product 4 with custom solutions">
+                        <div class="card-body">
+                            <h5 class="card-title">Custom Solution</h5>
+                            <p class="card-text">Tailored exactly to your business needs.</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-top-0">
+                            <a href="#" class="btn btn-outline-secondary w-100">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>What Our Clients Say</h2>
+                <p class="lead">Trusted by businesses around the world</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/374e66a3-8747-4743-9f5d-eb23a5a80ba0.png" class="testimonial-img" class="testimonial-img" alt="Portrait of John Doe, CEO of TechStart">
+                                <div class="ms-3">
+                                    <h5 class="mb-0">John Doe</h5>
+                                    <p class="mb-0 text-muted">CEO, TechStart</p>
+                                </div>
+                            </div>
+                            <p class="card-text">"This platform has transformed our business operations. The ease of use and powerful features are unmatched."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ba37c7ff-a2fc-4766-815c-b426973943b2.png" class="testimonial-img" class="testimonial-img" alt="Portrait of Sarah Johnson, Marketing Director at GlobalBrand">
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Sarah Johnson</h5>
+                                    <p class="mb-0 text-muted">Marketing Director, GlobalBrand</p>
+                                </div>
+                            </div>
+                            <p class="card-text">"The analytics tools have given us insights we never had before. Our marketing ROI has increased significantly."</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/be9e505c-9443-43cf-93d5-510c72198970.png" class="testimonial-img" alt="Portrait of Michael Chen, Founder of DigitalFirst">
+                                <div class="ms-3">
+                                    <h5 class="mb-0">Michael Chen</h5>
+                                    <p class="mb-0 text-muted">Founder, DigitalFirst</p>
+                                </div>
+                            </div>
+                            <p class="card-text">"Implementation was smooth and the support team was fantastic. Highly recommend for any growing business."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="mb-3">Ready to get started?</h2>
+                    <p class="lead mb-0">Join thousands of satisfied customers today.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end mt-3 mt-lg-0">
+                    <button class="btn btn-light btn-lg px-4">Sign Up Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/4317f240-d464-41d5-8e95-66fcf56bc3b1.png" alt="Company logo" width="120" class="mb-3">
+                    <p>Leading digital solutions for modern businesses.</p>
+                    <div class="mt-3">
+                        <a href="#" class="social-icon me-2"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 class="mb-4">Products</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white">Features</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Pricing</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">API</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Documentation</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 class="mb-4">Company</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white">About</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="mb-4">Stay Updated</h5>
+                    <p>Subscribe to our newsletter for the latest updates.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Your email">
+                        <button class="btn btn-light" type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2023 Company Name. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-white me-3">Privacy Policy</a>
+                    <a href="#" class="text-white me-3">Terms of Service</a>
+                    <a href="#" class="text-white">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
