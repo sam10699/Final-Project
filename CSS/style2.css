@@ -1,0 +1,38 @@
+ .hero-section {
+            background-color: #f8f9fa;
+            padding: 100px 0;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTALha2YVsGxCelLloct9oDjmscyYp2HYNn9Q&s');
+            background-size: cover;
+            background-position: center;
+            color: rgb(255, 255, 255);
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #0d6efd;
+        }
+        
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        
+        footer {
+            background-color: #212529;
+            color: white;
+            padding: 40px 0;
+        }
+        
+        .social-icon {
+            font-size: 1.5rem;
+            margin-right: 15px;
+            color: white;
+        }
+        
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
